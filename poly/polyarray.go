@@ -3,8 +3,8 @@ package poly
 import (
 	"errors"
 	"fmt"
-	"github.com/HcashOrg/bliss/params"
-	"github.com/HcashOrg/bliss/sampler"
+	"github.com/james-ray/bliss/params"
+	"github.com/james-ray/bliss/sampler"
 )
 
 type PolyArray struct {
@@ -70,9 +70,9 @@ func (pa *PolyArray) GetData() []int32 {
 }
 
 func (pa *PolyArray) MemZero() {
-    for i := range pa.data {
-        pa.data[i] = 0
-    }
+	for i := range pa.data {
+		pa.data[i] = 0
+	}
 }
 
 func UniformPoly(version int, entropy *sampler.Entropy) *PolyArray {

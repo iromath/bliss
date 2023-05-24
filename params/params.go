@@ -1,7 +1,7 @@
 package params
 
 import (
-	"github.com/HcashOrg/bliss/huffman"
+	"github.com/james-ray/bliss/huffman"
 )
 
 const (
