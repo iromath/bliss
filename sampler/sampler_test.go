@@ -2,7 +2,7 @@ package sampler
 
 import (
 	"fmt"
-	"github.com/james-ray/bliss/params"
+	"github.com/iromath/bliss/params"
 	"io/ioutil"
 	"strings"
 	"testing"
