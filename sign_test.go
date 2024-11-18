@@ -8,8 +8,8 @@ import (
 	_ "strings"
 	"testing"
 
-	"github.com/james-ray/bliss/params"
-	"github.com/james-ray/bliss/sampler"
+	"github.com/iromath/bliss/params"
+	"github.com/iromath/bliss/sampler"
 )
 
 func TestSignVerify(t *testing.T) {
