@@ -2,7 +2,7 @@ package bliss
 
 import (
 	"fmt"
-	"github.com/james-ray/bliss/sampler"
+	"github.com/iromath/bliss/sampler"
 	"io/ioutil"
 	"reflect"
 	"strconv"
