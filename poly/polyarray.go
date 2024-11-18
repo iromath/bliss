@@ -3,8 +3,8 @@ package poly
 import (
 	"errors"
 	"fmt"
-	"github.com/james-ray/bliss/params"
-	"github.com/james-ray/bliss/sampler"
+	"github.com/iromath/bliss/params"
+	"github.com/iromath/bliss/sampler"
 )
 
 type PolyArray struct {
