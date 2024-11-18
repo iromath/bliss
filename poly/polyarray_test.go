@@ -1,8 +1,8 @@
 package poly
 
 import (
-	"github.com/james-ray/bliss/params"
-	"github.com/james-ray/bliss/sampler"
+	"github.com/iromath/bliss/params"
+	"github.com/iromath/bliss/sampler"
 	"testing"
 )
 
